@@ -11,87 +11,125 @@
     <collation id="3" parent="1" name="BINARY"/>
     <collation id="4" parent="1" name="NOCASE"/>
     <collation id="5" parent="1" name="RTRIM"/>
-    <table id="6" parent="2" name="Documents"/>
-    <table id="7" parent="2" name="Documents_old"/>
-    <table id="8" parent="2" name="Groups"/>
-    <table id="9" parent="2" name="Sections"/>
-    <table id="10" parent="2" name="sqlite_master">
+    <table id="6" parent="2" name="Document_Parent"/>
+    <table id="7" parent="2" name="Documents"/>
+    <table id="8" parent="2" name="Documents_old"/>
+    <table id="9" parent="2" name="Groups"/>
+    <table id="10" parent="2" name="Section_History"/>
+    <table id="11" parent="2" name="Sections"/>
+    <table id="12" parent="2" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="11" parent="2" name="table_name"/>
-    <column id="12" parent="6" name="doc_id">
+    <table id="13" parent="2" name="table_name"/>
+    <column id="14" parent="6" name="doc_parent_id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="13" parent="6" name="doc_name">
+    <column id="15" parent="6" name="doc_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="16" parent="6" name="parent">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="17" parent="7" name="doc_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="18" parent="7" name="doc_name">
       <Position>2</Position>
       <DataType>varchar(25)|0s</DataType>
     </column>
-    <column id="14" parent="7" name="DocId">
+    <column id="19" parent="8" name="DocId">
       <Position>1</Position>
       <DataType>Int|0s</DataType>
     </column>
-    <column id="15" parent="7" name="Text">
+    <column id="20" parent="8" name="Text">
       <Position>2</Position>
       <DataType>Varchar(100)|0s</DataType>
     </column>
-    <column id="16" parent="8" name="GroupId">
+    <column id="21" parent="9" name="Group_id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="17" parent="8" name="GroupName">
+    <column id="22" parent="9" name="Group_name">
       <Position>2</Position>
       <DataType>Varchar|0s</DataType>
     </column>
-    <column id="18" parent="8" name="Parent">
+    <column id="23" parent="9" name="Parent">
       <Position>3</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="19" parent="8" name="SortOrder">
+    <column id="24" parent="9" name="SortOrder">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="20" parent="8" name="doc_id">
+    <column id="25" parent="9" name="doc_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="21" parent="9" name="section_id">
+    <column id="26" parent="9" name="section_id">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="27" parent="10" name="sec_hist_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="28" parent="10" name="doc_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="29" parent="10" name="doc_text">
+      <Position>3</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="30" parent="10" name="date_in">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="31" parent="10" name="date_out">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="32" parent="11" name="section_id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
     </column>
-    <column id="22" parent="9" name="Text">
+    <column id="33" parent="11" name="doc_text">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="23" parent="9" name="in_date">
+    <column id="34" parent="11" name="date_in">
       <Position>3</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="24" parent="10" name="type">
+    <column id="35" parent="12" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="25" parent="10" name="name">
+    <column id="36" parent="12" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="26" parent="10" name="tbl_name">
+    <column id="37" parent="12" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="27" parent="10" name="rootpage">
+    <column id="38" parent="12" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="28" parent="10" name="sql">
+    <column id="39" parent="12" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="29" parent="11" name="column_1">
+    <column id="40" parent="13" name="column_1">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="30" parent="11" name="column_2">
+    <column id="41" parent="13" name="column_2">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
