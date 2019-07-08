@@ -102,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8bc510b9-c857-42de-b304-a423cd5dc4ea/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -175,6 +175,7 @@
         <option value="$PROJECT_DIR$/doctrace/DAL/sql_Groups.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b67abdd3-5ab7-4958-8349-2c9901653288/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8bc510b9-c857-42de-b304-a423cd5dc4ea/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -242,7 +243,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -336,12 +337,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561411182361</updated>
       <workItem from="1561411193482" duration="9989000" />
-      <workItem from="1562190890082" duration="12945000" />
+      <workItem from="1562190890082" duration="15152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22934000" />
+    <option name="totallyTimeSpent" value="25141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,12 +366,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.23051947" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.37337664" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32900432" />
       <window_info anchor="bottom" id="SQL Generator" order="11" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Python Console" order="14" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -562,8 +563,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8bc510b9-c857-42de-b304-a423cd5dc4ea/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
