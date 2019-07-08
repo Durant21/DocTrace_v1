@@ -1,9 +1,9 @@
-from doctrace.BLL.Groups import Groups1
+from doctrace.BLL.Groups import BLL_Groups
 
 
 def test_call():
 
-   r = Groups1.get_groups()
+   r = BLL_Groups.get_groups()
    return r
 
 print(test_call())
